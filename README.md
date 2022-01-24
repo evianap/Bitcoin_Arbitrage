@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="" alt="Bitcoin" width="700" height="300">
+    <img src="https://github.com/evianap/bitcoin_arbitrage/blob/main/Resources/Bitcoin.png" alt="Bitcoin" width="700" height="300">
   </a>
 
   <h3 align="center">bitcoin_arbitrage_</h3>
@@ -49,7 +49,7 @@ bitstamp_df = bitstamp_dataframe=pd.read_csv(
     infer_datetime_format=True
 )
 ```
-<p align="center"><img src="" alt="series_screenshot" width="450" height="650"><p/>
+<p align="center"><img src="https://github.com/evianap/bitcoin_arbitrage/blob/main/Resources/Series_Raw_Screenshot.png" alt="series_screenshot" width="450" height="650"><p/>
 
 <p>In the sample dates that were randomly selected, no profitability was found<p/>
 
@@ -63,7 +63,7 @@ coinbase_sliced['Close'].loc['2018-01-02'].plot(legend=True, figsize=(10,6), col
 ```
 
 
-<p align="center"><img src="" alt="screenshot_error_" width="550" height="200"><p/>
+<p align="center"><img src="https://github.com/evianap/bitcoin_arbitrage/blob/main/Resources/Series_Plot_Screenshot.png" alt="screenshot_error_" width="550" height="200"><p/>
 
 
 ### Built With
